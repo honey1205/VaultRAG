@@ -4,17 +4,17 @@ from datetime import datetime
 
 
 def about():
-    st.title("📚 Local RAG")
+    st.title("📚 VaultRAG")
     st.caption(f"Developed by Jon Fairbanks &copy; {datetime.now().year}")
     st.write("")
 
     links_html = """
     <ul style="list-style-type:none; padding-left:0;">
         <li>
-            <a href="https://github.com/jonfairbanks/local-rag" style="color: grey;">GitHub</a>
+            <a href="https://github.com/honey1205/VaultRAG" style="color: grey;">GitHub</a>
         </li>
         <li>
-            <a href="https://hub.docker.com/r/jonfairbanks/local-rag" style="color: grey;">Docker Hub</a>
+            <a href="https://hub.docker.com/r/honey1205/VaultRAG" style="color: grey;">Docker Hub</a>
         </li>
     </ul>
     """
@@ -37,12 +37,12 @@ def about():
     help_html = """
     <ul style="list-style-type:none; padding-left:0;">
         <li>
-            <a href="https://github.com/jonfairbanks/local-rag/issues" style="color: grey;">
+            <a href="https://github.com/honey1205/VaultRAG/issues" style="color: grey;">
                 Bug Reports
             </a>
         </li>
         <li>
-            <a href="https://github.com/jonfairbanks/local-rag/discussions/new?category=ideas" style="color: grey;">
+            <a href="https://github.com/honey1205/VaultRAG/discussions/new?category=ideas" style="color: grey;">
                 Feature Requests
             </a>
         </li>

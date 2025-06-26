@@ -11,7 +11,7 @@ def github_repo():
     if st.session_state["selected_model"] is not None:
         st.text_input(
             "Select a GitHub.com repo",
-            placeholder="jonfairbanks/local-rag",
+            placeholder="honey1205/VaultRAG",
             key="github_repo",
         )
 
@@ -36,7 +36,7 @@ def github_repo():
     else:
         st.text_input(
             "Select a GitHub.com repo",
-            placeholder="jonfairbanks/local-rag",
+            placeholder="honey1205/VaultRAG",
             disabled=True,
         )
         st.button(
