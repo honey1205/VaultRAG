@@ -1,10 +1,8 @@
+# 📚 VaultRAG
 
-# 🧠 VaultRAG
+![VaultRAG Demo](demo.gif)
 
-> **Private. Offline. Open-Source. Secure.**  
-> Local Retrieval-Augmented Generation (RAG) system using open-source LLMs—without sending your data to the cloud.
-
-![Demo](demo.gif)
+**VaultRAG** is a powerful, privacy-focused Retrieval Augmented Generation (RAG) system designed to run entirely offline. It enables secure and intelligent question-answering over your own documents using open-source Large Language Models (LLMs)—with zero data sent to third-party services.
 
 ---
 
