@@ -5,7 +5,7 @@ from datetime import datetime
 
 def about():
     st.title("📚 VaultRAG")
-    st.caption(f"Developed by Jon Fairbanks &copy; {datetime.now().year}")
+    st.caption(f"Developed by Honey Gupta &copy; {datetime.now().year}")
     st.write("")
 
     links_html = """

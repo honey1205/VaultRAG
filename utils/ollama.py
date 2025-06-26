@@ -72,9 +72,8 @@ def get_models():
     try:
         chat_client = create_client(st.session_state["ollama_endpoint"])
         data = chat_client.list()
-        models = []
-        for model in data["models"]:
-            models.append(model["name"])
+        logs.log.info(data)
+        models = [m.model for m in data.models]
 
         st.session_state["ollama_models"] = models
 
